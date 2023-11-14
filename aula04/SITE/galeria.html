@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Fotos</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        table,td {
+            margin:auto;
+            /*border: 1px solid black;*/
+
+        }
+
+        img{
+            border-radius: 8px;
+            width: 200px;
+            height: 100px;
+        }
+
+        img:hover{
+            transform: scale(1.5);
+            transition: transform 1s ease;
+        }
+    </style>
+</head>
+<body>
+    <table>
+            <caption> <h1>Galeria de Fotos </h1></caption>
+        <tbody>
+            <tr>
+                <td><img src="https://picsum.photos/id/100/300/200" ></td>
+                <td><img src="https://picsum.photos/id/101/300/200" ></td>
+                <td><img src="https://picsum.photos/id/102/300/200" ></td>
+            </tr>
+            <tr>
+                <td><img src="https://picsum.photos/id/111/300/200" ></td>
+                <td><img src="https://picsum.photos/id/112/300/200" ></td>
+                <td><img src="https://picsum.photos/id/113/300/200" ></td>
+            </tr>
+            <tr>
+                <td><img src="https://picsum.photos/id/120/300/200" ></td>
+                <td><img src="https://picsum.photos/id/125/300/200" ></td>
+                <td><img src="https://picsum.photos/id/140/300/200" ></td>
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
